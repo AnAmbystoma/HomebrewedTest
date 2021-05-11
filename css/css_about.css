@@ -9,6 +9,10 @@ html, body{
     min-height: 750px;
     min-width:300px;
     font-family: monospace;
+    background-color: black;
+    color:lime;
+    font: Inconsolata, monospace;
+    text-shadow: 0 0 50px #C8C8C8;
 }
 
 #banner{
@@ -72,12 +76,7 @@ h3 {
     }
 }
 
-#introduction,#credits,#footer{
-    background-color: black;
-    color:lime;
-    font: Inconsolata, monospace;
-    text-shadow: 0 0 50px #C8C8C8;
-}
+
 
 #footer{
     height:6%;
