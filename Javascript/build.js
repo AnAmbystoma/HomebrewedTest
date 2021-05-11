@@ -71,15 +71,7 @@ function popuptips(x){
 
 function showimg(){
     img = document.getElementById('popupimg');
-    if (img.style.height == '98%'){
-        img.style.height = '90vh';
-        img.style.width = '90vw';
-        img.style.filter = 'brightness(100%)';
-        img.style.position = 'fixed';
-        img.style.top = '5vh';
-        img.style.left = '5vw';
-        img.style.objectFit = 'inherit';
-    }else{
+    if (img.style.height == '90vh'){
         img.style.height = '98%';
         img.style.width = '100%';
         img.style.filter = 'brightness(70%)';
@@ -87,6 +79,14 @@ function showimg(){
         img.style.objectFit = 'scale-down';
         img.style.top = '0';
         img.style.left = '0';
+    }else{
+        img.style.height = '90vh';
+        img.style.width = '90vw';
+        img.style.filter = 'brightness(100%)';
+        img.style.position = 'fixed';
+        img.style.top = '5vh';
+        img.style.left = '5vw';
+        img.style.objectFit = 'cover';
     }
 }
 
